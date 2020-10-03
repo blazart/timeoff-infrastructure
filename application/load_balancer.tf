@@ -44,6 +44,10 @@ resource "aws_alb_target_group" "app_target" {
   protocol    = "HTTP"
   vpc_id      = var.vpc_id
   target_type = "ip"
+  stickiness {
+    type = "lb_cookie"
+    enabled = true
+  }
   tags = {
     Name = "app_target_${local.suffix_name}"
     Env  = var.env
