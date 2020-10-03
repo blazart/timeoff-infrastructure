@@ -42,8 +42,6 @@ module "networking" {
 
 ## Outputs
 
-This module doesn't produce any output
-
 | Name | Description |
 |------|-------------|
 | vpc_id | created VPC id |

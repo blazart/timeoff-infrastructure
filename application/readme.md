@@ -59,7 +59,6 @@ public subnets and private subnets have the following structure (A list of objec
 
 ## Outputs
 
-This module doesn't produce any output
 
 | Name | Description |
 |------|-------------|
