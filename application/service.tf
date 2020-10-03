@@ -84,7 +84,7 @@ resource "aws_security_group" "sg_app" {
 }
 
 resource "aws_ecs_service" "main" {
-  name            = "tf-ecs-service"
+  name            = "time_off_service${local.suffix_name}"
   cluster         = aws_ecs_cluster.cluster.id
   task_definition = aws_ecs_task_definition.app_task_definition.arn
   desired_count   = var.app_count

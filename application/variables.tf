@@ -38,6 +38,16 @@ variable "app_count" {
   default     = 2
 }
 
+variable "min_capacity" {
+  description = "Min number of task running"
+  default     = 1
+}
+
+variable "max_capacity" {
+  description = "Max number of tasks running"
+  default     = 4
+}
+
 locals {
   suffix_name="_${var.app_name}_${var.env}"
 
