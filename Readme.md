@@ -1,13 +1,13 @@
-#Time-Off Project Infrastructure Configuration
+# Time-Off Project Infrastructure Configuration
 
 This project has been created to deploy a simple infrastructure for Time-off Project (https://github.com/blazart/timeoff-management-application). The main idea is to deploy a simple high availability cluster
 
-##Components
+## Components
 
 * Networking Module : Complete documentation can be found [here](networking/readme.md)
 * Application Module : Complete documentation can be found [here](application/readme.md)
 
-##IaC Deployment
+## IaC Deployment
 This project can be executed locally or using terraform cloud. In this case we are using terraform cloud (https://app.terraform.io/) to deploy the whole infrastructure to AWS Cloud 
 
 ![Terraform Cloud](terraform_cloud.png)
