@@ -51,6 +51,8 @@ public subnets and private subnets have the following structure (A list of objec
 | app_cpu | CPU to assign to each fargate task | `string` |    `"256"`| no |
 | app_memory | Memory to assign to each fargate task | `string` |    `"512"`| no |
 | app_port | Port exposed by container | `number` |    `3000`| no |
+| min_capacity | Min number of task running of the service | `number` |    `1`| no |
+| max_capacity | Max number of task running of the service | `number` |    `4`| no |
 | app_count | How many tasks of service are going to be deployed | `number` |    `2`| no |
 | app_region | Region to create resources | `string` |    `"us-east-1"`| no |
 
