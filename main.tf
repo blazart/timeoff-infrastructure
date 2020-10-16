@@ -19,3 +19,4 @@ module "application" {
   vpc_id = module.networking.vpc_id
   depends_on = [module.networking]
 }
+
